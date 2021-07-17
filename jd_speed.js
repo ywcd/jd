@@ -11,7 +11,7 @@
 =================QuantumultX==============
 [task_local]
 #天天加速
-8 0-23/3 * * * jd_speed.js, tag=京东天天加速, img-url=https://raw.githubusercontent.com/58xinian/icon/master/jdjs.png, enabled=true
+48 2-23/3 * * * jd_speed.js, tag=京东天天加速, img-url=https://raw.githubusercontent.com/58xinian/icon/master/jdjs.png, enabled=true
 
 */
 

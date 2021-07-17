@@ -7,7 +7,7 @@
 ============Quantumultx===============
 [task_local]
 #美丽研究院
-10 0,5,12 * * * jd_beauty.js, tag=美丽研究院
+10 12 * * * jd_beauty.js, tag=美丽研究院
  */
 const $ = new Env('美丽研究院');
 const notify = $.isNode() ? require('./sendNotify') : '';

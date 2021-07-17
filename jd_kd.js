@@ -9,7 +9,7 @@
 ============Quantumultx===============
 [task_local]
 #京东快递签到
-5,10,15 0,2 * * * jd_kd.js, tag=京东快递签到, img-url=https://raw.githubusercontent.com/58xinian/icon/master/jd_kd.png, enabled=true
+15 0,2 * * * jd_kd.js, tag=京东快递签到, img-url=https://raw.githubusercontent.com/58xinian/icon/master/jd_kd.png, enabled=true
 
 
  */

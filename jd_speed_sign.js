@@ -10,7 +10,7 @@
 ============Quantumultx===============
 [task_local]
 #京东极速版
-0 3,7,15 * * * jd_speed_sign.js, tag=京东极速版, img-url=https://raw.githubusercontent.com/Orz-3/task/master/jd.png, enabled=true
+20 3,7,15 * * * jd_speed_sign.js, tag=京东极速版, img-url=https://raw.githubusercontent.com/Orz-3/task/master/jd.png, enabled=true
 
 
 */

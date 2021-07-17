@@ -18,7 +18,7 @@ iOS同时支持使用 NobyDa 与 domplin 脚本的京东 cookie
 ============Quantumultx===============
 [task_local]
 #京东保价
-30 1 * * * jd_price.js, tag=京东保价, img-url=https://raw.githubusercontent.com/Orz-3/task/master/jd.png, enabled=true
+30 3,14 * * * jd_price.js, tag=京东保价, img-url=https://raw.githubusercontent.com/Orz-3/task/master/jd.png, enabled=true
 
  */
 

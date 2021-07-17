@@ -10,7 +10,7 @@ Modified from https://github.com/Zero-S1/JD_tools/blob/master/JD_vvipclub.py
 ============QuantumultX==============
 [task_local]
 #摇京豆
-5 0,5,12,18,23 * * * jd_club_lottery.js, tag=摇京豆, img-url=https://raw.githubusercontent.com/58xinian/icon/master/jdyjd.png, enabled=true
+5 2,5,12,18,23 * * * jd_club_lottery.js, tag=摇京豆, img-url=https://raw.githubusercontent.com/58xinian/icon/master/jdyjd.png, enabled=true
 
 */
 

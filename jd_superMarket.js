@@ -8,7 +8,7 @@ Some Functions Modified From https://github.com/Zero-S1/JD_tools/blob/master/JD_
 =================QuantumultX==============
 [task_local]
 #东东超市
-15 * * * * jd_superMarket.js, tag=东东超市, img-url=https://raw.githubusercontent.com/58xinian/icon/master/jxc.png, enabled=true
+33 * * * * jd_superMarket.js, tag=东东超市, img-url=https://raw.githubusercontent.com/58xinian/icon/master/jxc.png, enabled=true
 
  */
 const $ = new Env('东东超市');

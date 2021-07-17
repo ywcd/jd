@@ -8,7 +8,7 @@ github： https://github.com/yangtingxiao
 ============Quantumultx===============
 [task_local]
 #京东排行榜
-10 0,5,12 * * * jd_rankingList.js, tag=京东排行榜
+44 0,5,12 * * * jd_rankingList.js, tag=京东排行榜
 
  */
 const $ = new Env('京东排行榜');

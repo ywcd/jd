@@ -15,7 +15,7 @@
 
 ==========================Quantumultx=========================
 [task_local]
-5 0,1,5,9,12,18 * * * jd_jxnc.js, tag=京喜农场, img-url=https://raw.githubusercontent.com/58xinian/icon/master/jxnc.png, enabled=true
+19 0,1,5,9,12,18 * * * jd_jxnc.js, tag=京喜农场, img-url=https://raw.githubusercontent.com/58xinian/icon/master/jxnc.png, enabled=true
 
 */
 

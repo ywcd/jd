@@ -8,7 +8,7 @@
 ============Quantumultx===============
 [task_local]
 #领京豆额外奖励
-10 0,7,12,15 * * * jd_bean_home.js, tag=领京豆额外奖励, img-url=https://raw.githubusercontent.com/58xinian/icon/master/jd_bean_home.png, enabled=true
+17 0,7,12,15 * * * jd_bean_home.js, tag=领京豆额外奖励, img-url=https://raw.githubusercontent.com/58xinian/icon/master/jd_bean_home.png, enabled=true
  */
 const $ = new Env('领京豆额外奖励');
 
