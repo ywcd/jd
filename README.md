@@ -10,10 +10,11 @@
 
 ##去面板添加这两个任务
 
-名称:更新仓库
-定时:3,33 * * * *
-命令:bash /ql/repo/LJMX996_jd_aaron/pull.sh
+> * 名称:更新仓库
+> * 定时:3,33 * * * *
+> * 命令:bash /ql/repo/LJMX996_jd_aaron/pull.sh
 
-名称:依赖安装
-定时: 10 13 * * * *
-命令:bash /ql/repo/LJMX996_jd_aaron/yilai.sh
+> * 名称:依赖安装
+> * 定时: 10 13 * * * *
+> * 命令:bash /ql/repo/LJMX996_jd_aaron/yilai.sh
+> * 只需要运行一次
