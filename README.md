@@ -1,12 +1,19 @@
 # jd_scripts
 > * 删除脚本内inviteCodes
-> * 使用新助力库
+> * 剔除内置助力链接
 > * 其他未修改，用法与原版相同
 
-# BOT
-### 助力码在@JD_ShareCode_Bot提交 [点击直达BOT](https://t.me/JD_ShareCode_Bot)
+#使用方法
+##将下面这个发给机器人，一次
 
-# Warning
-### 带助力功能的脚本要使用本仓库的，其他仓库的没有适配新助力池
-### IOS三件套在仓库内有订阅配置文件
-### Node和Docker拉取使用本仓库地址
+> * /cmd ql repo https://github.com/LJMX996/jd.git "jd_|jx_" "" "JDJRValidator_Pure" "aaron"
+
+##去面板添加这两个任务
+
+名称:更新仓库
+定时:3,33 * * * *
+命令:bash /ql/repo/LJMX996_jd_aaron/pull.sh
+
+名称:依赖安装
+定时: 10 13 * * * *
+命令:bash /ql/repo/LJMX996_jd_aaron/yilai.sh
