@@ -6,7 +6,7 @@
 #使用方法
 ##将下面这个发给机器人，一次
 
-> * /cmd ql repo https://github.com/LJMX996/jd.git "jd_|jx_" "" "JDJRValidator_Pure" "aaron"
+> * /cmd ql repo https://github.com/LJMX996/jd.git "pull.sh" "" "" "aaron"
 
 ##去面板添加这两个任务
 
