@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="zh">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" href="/favicon.ico" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ninja</title>
+    <script type="module" crossorigin src="/assets/index.1a8beb0e.js"></script>
+    <link rel="modulepreload" href="/assets/vendor.baa403e4.js">
+    <link rel="stylesheet" href="/assets/index.fcdd9895.css">
+  </head>
+  <body>
+    <div id="app"></div>
+    <script>
+    window.onload=function(){
+    	var diy = document.querySelector(".leading-6");
+    	var html = "";
+    	html+="<p>使用京东扫描二维码登录，提示升级版本无需理会，直接回到网页等待跳转，登录成功显示用户名或者提示添加成功即自动上车。</p>"+
+    	"<p>建议修改备注为扫码日期+网名。</p>"+
+    	"<p>微信扫描推送二维码关注加入即可收取任务通知。</p>"+
+    	"<p>点退出登录，即可添加或更新第二个账号，不要随便点删除账号。</p>"+
+    	"<p>扫码登录Cookie正常有效期最多1个月，已经上车的账号再次扫描登陆自动替换最新Cookie。Cookie失效长时间不替换的自动踢出车位。</p>"+
+    	"<p>为了你的财产安全，建议关闭免密支付并且开启支付验证密码。</p>";
+    	diy.innerHTML = html;
+    }
+    </script>
+  </body>
+</html>
