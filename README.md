@@ -12,9 +12,22 @@
 
 > * 名称:更新仓库
 > * 定时:3,33 * * * *
-> * 命令:bash /ql/repo/LJMX996_jd_aaron/pull.sh
+> * 命令:task /ql/repo/LJMX996_jd_aaron/pull.sh
 
 > * 名称:依赖安装
 > * 定时: 10 13 * * * *
-> * 命令:bash /ql/repo/LJMX996_jd_aaron/yilai.sh
+> * 命令:task /ql/repo/LJMX996_jd_aaron/yilai.sh
 > * 只需要运行一次
+
+#ninja安装参考
+机器人命令如下
+
+> * 名称:启动ninja
+> * 命令:nohup task /ql/repo/LJMX996_jd_aaron/install-ninja.sh
+
+下面命令不要使用，本人自用
+会增加我的推送二维码进去
+> * 名称:更新ninja
+> * 命令:nohup task /ql/repo/LJMX996_jd_aaron/update-ninja.sh
+
+
