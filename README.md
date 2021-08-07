@@ -40,12 +40,11 @@ fi
 # ninja安装参考
 机器人命令如下
 
-> * 名称:启动ninja
+> * 名称:安装ninja
 > * 命令:nohup task /ql/repo/LJMX996_jd_aaron/install-ninja.sh
 
-下面命令不要使用，本人自用
-会增加我的推送二维码进去
-> * 名称:更新ninja
-> * 命令:nohup task /ql/repo/LJMX996_jd_aaron/update-ninja.sh
+
+> * 名称:更新&启动ninja
+> * 命令:nohup task /ql/repo/LJMX996_jd_aaron/up-ninja.sh
 
 
