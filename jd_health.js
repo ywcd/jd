@@ -311,8 +311,8 @@ function readShareCode() {
   console.log(`开始`)
   return new Promise(async resolve => {
     $.get({
-      url: `http://share.turinglabs.net/api/v3/health/query/${randomCount}/`,
-      'timeout': 10000
+      url: ``,
+      'timeout': 10
     }, (err, resp, data) => {
       try {
         if (err) {
