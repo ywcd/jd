@@ -59,9 +59,10 @@ services:
       - ENABLE_WEB_PANEL=true
       - ENABLE_HANGUP=false
       - ENABLE_TG_BOT=true
-      
-   ```diff
-   
+   ```
+
+
+
 ## 将下面这个发给机器人，一次
 
 > * /cmd ql repo https://github.com/LJMX996/jd.git "pull.sh" "" "" "aaron"
