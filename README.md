@@ -4,6 +4,64 @@
 > * 其他未修改，用法与原版相同
 
 # 使用方法
+
+### 新建容器
+
+#### 使用docker-compose
+   ```diff
+version: "2.0"
+services:
+  jd1:
+    image: whyour/qinglong:latest
+    container_name: ql1
+    restart: always
+    tty: true
+    network_mode: bridge
+    hostname: ql1
+    volumes:
+      - /volume1/docker/ql/1/config:/ql/config
+      - /volume1/docker/ql/1/log:/ql/log
+      - /volume1/docker/ql/1/repo:/ql/repo
+      - /volume1/docker/ql/1/db:/ql/db
+      - /volume1/docker/ql/1/scripts:/ql/scripts
+      - /volume1/docker/ql/1/raw:/ql/raw
+      - /volume1/docker/ql/1/ninja:/ql/ninja
+    ports:
+      - 8701:5700
+      - 701:5701
+    environment: 
+      - ENABLE_TTYD=true             
+      - ENABLE_WEB_PANEL=true
+      - ENABLE_HANGUP=false
+      - ENABLE_TG_BOT=true
+
+
+  jd2:
+    image: whyour/qinglong:latest
+    container_name: ql2
+    restart: always
+    tty: true
+    network_mode: bridge
+    hostname: ql2
+    volumes:
+      - /volume1/docker/ql/2/config:/ql/config
+      - /volume1/docker/ql/2/log:/ql/log
+      - /volume1/docker/ql/2/repo:/ql/repo
+      - /volume1/docker/ql/2/db:/ql/db
+      - /volume1/docker/ql/2/scripts:/ql/scripts
+      - /volume1/docker/ql/2/raw:/ql/raw
+      - /volume1/docker/ql/2/ninja:/ql/ninja
+    ports:
+      - 8702:5700
+      - 702:5701
+    environment: 
+      - ENABLE_TTYD=true             
+      - ENABLE_WEB_PANEL=true
+      - ENABLE_HANGUP=false
+      - ENABLE_TG_BOT=true
+      
+   ```diff
+   
 ## 将下面这个发给机器人，一次
 
 > * /cmd ql repo https://github.com/LJMX996/jd.git "pull.sh" "" "" "aaron"
