@@ -48,7 +48,7 @@ function randomNumber(min = 0, max = 100) {
 const RANDOM_UA = USER_AGENTS[randomNumber(0, USER_AGENTS.length)];
 
 const GET_RANDOM_TIME_UA = () => {
-  return 'Mozilla/5.0 (iPhone; CPU iPhone OS 15_0 like Mac OS X; zh-cn) AppleWebKit/601.1.46 (KHTML, like Gecko) Mobile/19A5337a UCBrowser/5.2.8.1180 Mobile';
+  return 'Mozilla/5.0 (Linux; Android 10; DT2002C) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.156 Mobile Safari/537.36';
 };
 
 module.exports = {
